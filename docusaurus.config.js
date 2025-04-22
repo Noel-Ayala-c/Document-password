@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Seguridad de Contraseñas',
+  tagline: 'Asegura tus contraseñas',
+  favicon: 'img/security.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -32,8 +32,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'es',
+    locales: ['es'],
   },
 
   presets: [
@@ -76,10 +76,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'SC',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Seguridad de Contraseñas',
+          src: 'img/security.ico',
         },
         items: [
           {
